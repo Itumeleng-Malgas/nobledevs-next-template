@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -26,5 +26,8 @@
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "typescript": "4.7.4"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }
