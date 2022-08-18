@@ -11,10 +11,7 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
       <Head>
         <title>Primary Layout</title>
       </Head>
-      <main className={styles.main}>
-        <h4>With Primary Layout</h4>
-        {children}
-      </main>
+      <main className={styles.main}>{children}</main>
     </>
   );
 };
