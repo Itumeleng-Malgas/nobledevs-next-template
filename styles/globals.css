@@ -1,0 +1,9 @@
+/* tailwind styles */
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  .custom-btn {
+    @apply border p-1 px-6 bg-slate-300 rounded-md;
+  }
+}

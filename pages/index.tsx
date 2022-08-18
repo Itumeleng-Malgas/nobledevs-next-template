@@ -1,3 +1,4 @@
+import { Button } from 'antd';
 import Head from 'next/head';
 import Image from 'next/image';
 import PrimaryLayout from '../components/layouts/PrimaryLayout';
@@ -36,6 +37,10 @@ const Home: NextPageWithLayout = () => {
           </figcaption>
         </div>
       </figure>
+      <div className="flex gap-5">
+        <Button type="primary">Ant Button</Button>
+        <button className="custom-btn">Custom</button>
+      </div>
     </div>
   );
 };
